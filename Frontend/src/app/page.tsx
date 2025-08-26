@@ -12,6 +12,9 @@ export default function Home() {
         <Button color="secondary" href="/purchase">
           Purchase Products
         </Button>
+        <Button variant="contained" color="success" href="/sales-report">
+          View Sales Report
+        </Button>
       </div>
     </>
   );

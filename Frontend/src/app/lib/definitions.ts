@@ -29,4 +29,10 @@ export interface purchasedProductType extends ProductType {
   quantityPurchased: number;
 }
 
-
+export interface ProductSalesType {
+  productId: number;
+  _sum: {
+    quantity: number;
+    totalPrice: number;
+  };
+}
